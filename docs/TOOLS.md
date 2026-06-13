@@ -605,6 +605,18 @@ Types: `rectangle`, `oval`, `triangle`, `star_5`, `arrow_right`, `callout_rectan
 {"filename": "data.xlsx", "edit_action": "trace_precedents", "cell": "E5"}
 ```
 
+**`insert_image`**
+```json
+{"filename": "data.xlsx", "edit_action": "insert_image", "cell": "A1", "path": "C:/logo.png", "width": 200, "height": 150}
+```
+
+**`named_range`**
+```json
+{"filename": "data.xlsx", "edit_action": "named_range", "nr_action": "create", "name": "SalesData", "range": "A1:D100"}
+{"filename": "data.xlsx", "edit_action": "named_range", "nr_action": "list"}
+{"filename": "data.xlsx", "edit_action": "named_range", "nr_action": "delete", "name": "SalesData"}
+```
+
 ---
 
 ### Tool 5: `manage_sheets`
