@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "excel-mcp-server"
+version = "1.0.0"
+description = "Model Context Protocol (MCP) server for Microsoft Excel automation via COM API. 90+ operations covering read, edit, charts, conditional formatting, tables, shapes, page layout, and more."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [
+    { name = "shuncongci" },
+]
+keywords = ["mcp", "excel", "office", "automation", "com", "win32com", "model-context-protocol"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "pywin32>=306",
+    "Pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/shuncongci/excel-mcp-server"
+Repository = "https://github.com/shuncongci/excel-mcp-server"
+Issues = "https://github.com/shuncongci/excel-mcp-server/issues"
+Documentation = "https://github.com/shuncongci/excel-mcp-server/blob/main/docs/TOOLS.md"
+
+[project.scripts]
+excel-mcp-server = "excel_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/excel_mcp"]
