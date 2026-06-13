@@ -67,7 +67,7 @@
 ### 安装
 
 ```bash
-git clone https://github.com/shuncongci/excel-mcp-server.git
+git clone https://github.com/yaoyuansh/excel-mcp-server.git
 cd excel-mcp-server
 pip install -e .
 ```
@@ -191,4 +191,4 @@ pytest
 
 Apache 2.0 — 详见 [LICENSE](LICENSE)
 
-Copyright 2026 shuncongci
+Copyright 2026 yaoyuansh

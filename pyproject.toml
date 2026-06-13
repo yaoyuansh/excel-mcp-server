@@ -10,7 +10,7 @@ readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.10"
 authors = [
-    { name = "shuncongci" },
+    { name = "yaoyuansh" },
 ]
 keywords = ["mcp", "excel", "office", "automation", "com", "win32com", "model-context-protocol"]
 classifiers = [
@@ -38,10 +38,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/shuncongci/excel-mcp-server"
-Repository = "https://github.com/shuncongci/excel-mcp-server"
-Issues = "https://github.com/shuncongci/excel-mcp-server/issues"
-Documentation = "https://github.com/shuncongci/excel-mcp-server/blob/main/docs/TOOLS.md"
+Homepage = "https://github.com/yaoyuansh/excel-mcp-server"
+Repository = "https://github.com/yaoyuansh/excel-mcp-server"
+Issues = "https://github.com/yaoyuansh/excel-mcp-server/issues"
+Documentation = "https://github.com/yaoyuansh/excel-mcp-server/blob/main/docs/TOOLS.md"
 
 [project.scripts]
 excel-mcp-server = "excel_mcp.server:main"

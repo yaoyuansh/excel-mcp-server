@@ -67,7 +67,7 @@ A **Model Context Protocol (MCP) server** for Microsoft Excel automation. Contro
 ### Install
 
 ```bash
-git clone https://github.com/shuncongci/excel-mcp-server.git
+git clone https://github.com/yaoyuansh/excel-mcp-server.git
 cd excel-mcp-server
 pip install -e .
 ```
@@ -191,4 +191,4 @@ The tests cover package import, MCP tool schemas, license metadata consistency, 
 
 Apache 2.0 — see [LICENSE](LICENSE)
 
-Copyright 2026 shuncongci
+Copyright 2026 yaoyuansh
