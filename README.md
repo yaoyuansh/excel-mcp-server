@@ -66,24 +66,10 @@ A **Model Context Protocol (MCP) server** for Microsoft Excel automation. Contro
 
 ### Install
 
-From PyPI (after the package is published):
-
-```bash
-pip install excel-mcp-server
-```
-
-For local development from source:
-
 ```bash
 git clone https://github.com/shuncongci/excel-mcp-server.git
 cd excel-mcp-server
 pip install -e .
-```
-
-If you are running directly from this repository with `uv`:
-
-```bash
-uv run excel-mcp-server
 ```
 
 ### Configure MCP Client

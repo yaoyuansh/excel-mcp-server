@@ -66,24 +66,10 @@
 
 ### 安装
 
-从 PyPI 安装（发布到 PyPI 后）：
-
-```bash
-pip install excel-mcp-server
-```
-
-从源码进行本地开发安装：
-
 ```bash
 git clone https://github.com/shuncongci/excel-mcp-server.git
 cd excel-mcp-server
 pip install -e .
-```
-
-如果直接在本仓库中用 `uv` 运行：
-
-```bash
-uv run excel-mcp-server
 ```
 
 ### 配置 MCP 客户端
